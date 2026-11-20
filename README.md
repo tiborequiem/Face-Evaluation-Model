@@ -4,7 +4,7 @@ A computer vision-based Driver Monitoring System using Python, OpenCV, and Media
 
 ## Roadmap (Phase 1)
 - [x] **Step 1.1: Project Setup & OpenCV Webcam Feed**
-- [ ] **Step 1.2: MediaPipe Face Mesh Integration**
+- [x] **Step 1.2: MediaPipe Face Mesh Integration**
 - [ ] **Step 1.3: Eye Aspect Ratio (EAR) & Drowsiness Logic**
 - [ ] **Step 1.4: 3D Head Pose Estimation & Distraction Logic**
 - [ ] **Step 1.5: 5-Second Startup Calibration**
@@ -23,7 +23,12 @@ A computer vision-based Driver Monitoring System using Python, OpenCV, and Media
    pip install -r requirements.txt
    ```
 
-3. Run the camera test (Step 1.1):
-   ```bash
-   python src/camera_test.py
-   ```
+3. Run the scripts:
+   - Camera test (Step 1.1):
+     ```bash
+     python src/camera_test.py
+     ```
+   - Face Mesh test (Step 1.2):
+     ```bash
+     python src/face_mesh_test.py
+     ```
