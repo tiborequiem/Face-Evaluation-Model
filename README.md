@@ -14,8 +14,9 @@ A computer vision-based Driver Monitoring System using Python, OpenCV, and Media
 1. Create and activate a Python virtual environment:
    ```bash
    python3 -m venv .venv
-   source .venv/bin/activate  # On Linux/macOS
-   # or: .venv\Scripts\activate  # On Windows
+   source .venv/bin/activate       # Bash / Zsh
+   source .venv/bin/activate.fish  # Fish shell
+   # or: .venv\Scripts\activate    # Windows
    ```
 
 2. Install dependencies:
